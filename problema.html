@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .custom-header {
+            background-color: #962525; 
+        }
+
+        .custom-footer {
+            background-color: #962525; 
+            color: white; 
+        }
+        header {
+            background-color: #962525;
+            color: white;
+            padding: 20px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 100px;
+        }
+
+        footer {
+            background-color: #962525;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .quadro {
+            margin-top: 20px;
+        }
+
+        .items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .item {
+            height: 150px; 
+            background-size: cover;
+            background-position: center;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark custom-header container">
+            <a class="navbar-brand" href="index.html"><strong>Formula E</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="problema.html">Problema</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solucao.html">Solução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="impactos.html">Impactos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <div class="apresentar">
+            <section id="problema">
+                <h1 style="text-align: center;"><strong>Problema</strong></h1>
+                <br>
+                <h2 style="text-align: center;">Popularizar a Formula E, trazendo maior visibilidade ao público</h2>
+                <br>
+                <br>
+                <h5 style="text-align: justify;">A Fórmula E entende que deve buscar maior interação, incentivando novos públicos a consumir o esporte, através de interações gamificadas dedicadas às corridas e de um site com experiências imersivas. Porém, como isso deve ser realizado?</p>
+            </section>
+        </div>
+        <br>
+        <div class="quadro">
+            <div class="items">
+                <div class="item" tabindex="0" style="background-image: url(https://racingonline.com.br/wp-content/uploads/2023/02/Image-13.jpg)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://resources.formula-e.pulselive.com/photo-resources/2024/05/16/ba8017be-de50-4205-89b2-fcd569fc3ac8/Rowland-Berlin-Season-10.jpg?width=1440&height=810)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://www.smallcase.com/wp-content/uploads/2023/02/image-1-mexico-press-release.png)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/formula.jpeg?w=1220&h=674&crop=1)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://racingonline.com.br/wp-content/uploads/2019/03/A_trio_of_fully-electric_cars_lined-up_in_formation_outside_ExCeL_London_-_the_scene_of_Formula_E_s_racing_return_to_the_UK_capital_in_season_six.jpg)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://resources.formula-e.pulselive.com/photo-resources/2024/05/27/04cd8b77-29a9-4926-8de6-2fd9939bb6a2/HANKOOK_SLIDE_WEB_02.jpg?width=1580&height=1000)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://www.adobomagazine.com/wp-content/uploads/2022/08/Mahindra-Gets-London-To-Dance-For-Good-New-Activation-by-BBH-India-HERO.jpg)"></div>
+                <div class="item" tabindex="0" style="background-image: url(https://resources.formula-e.pulselive.com/photo-resources/2023/03/23/a335db6d-3b4a-4d08-a232-cd14ce5afb6e/Ayrton-Senna-celebrates-F1-win.jpg?width=1440&height=810)"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="custom-footer text-white text-center py-3">
+        <p>&copy; FIA 2013-2024 Todo o conteúdo sujeito à aprovação da FIA</p>
+        <p>Insta: @fiaformulae | Email: media@fiaformulae.com</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
